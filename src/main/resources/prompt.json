@@ -1,0 +1,125 @@
+{
+  "levels": {
+    "Easy": {
+      "topics": {
+        "Basics of Programming": [
+          "Variables and Data Types",
+          "Control Flow (If-Else, Switch)",
+          "Loops (For, While, Do-While)",
+          "Functions and Scope",
+          "Basic Input/Output",
+          "Operators (Arithmetic, Logical, Bitwise)"
+        ],
+        "Object-Oriented Programming": [
+          "Classes and Objects",
+          "Encapsulation and Abstraction",
+          "Constructors and Destructors",
+          "This Keyword",
+          "Super Keyword",
+          "Static and Final Keywords",
+          "Inheritance Basics",
+          "Polymorphism (Method Overloading Basics)"
+        ],
+        "Databases": [
+          "Relational vs. Non-Relational Databases",
+          "SQL Basics (SELECT, INSERT, UPDATE, DELETE)",
+          "ACID Properties",
+          "Primary Key vs. Foreign Key",
+          "Joins (INNER, LEFT, RIGHT, FULL - Basic Overview)",
+          "Normalization (1NF, 2NF - Basics)"
+        ],
+        "Networking": [
+          "IP Addressing (IPv4 vs IPv6)",
+          "Basic Networking Concepts",
+          "HTTP vs. HTTPS",
+          "DNS Overview",
+          "Firewalls and Security Basics"
+        ],
+        "Operating Systems": [
+          "Types of Operating Systems",
+          "Process vs. Thread",
+          "Basic Memory Management",
+          "File System Overview",
+          "I/O Operations and Scheduling"
+        ]
+      }
+    },
+    "Medium": {
+      "topics": {
+        "Object-Oriented Programming": [
+          "Interfaces and Abstract Classes",
+          "Method Overloading vs. Overriding",
+          "Polymorphism (Runtime and Compile-Time)",
+          "Design Patterns (Singleton, Factory, Observer)",
+          "SOLID Principles (Basic)"
+        ],
+        "Databases": [
+          "Normalization (1NF to 3NF, BCNF Basics)",
+          "Joins (INNER, OUTER, CROSS, SELF)",
+          "Indexes and Query Optimization",
+          "Stored Procedures vs. Functions",
+          "Transactions and Concurrency Control"
+        ],
+        "Networking": [
+          "TCP vs. UDP",
+          "OSI Model Layers",
+          "Load Balancing Basics",
+          "DNS Resolution Process",
+          "CDN and Caching Mechanisms"
+        ],
+        "Operating Systems": [
+          "Thread Synchronization (Mutex, Semaphore)",
+          "Memory Management (Paging, Segmentation)",
+          "Process Scheduling Algorithms (FCFS, SJF, Round Robin)",
+          "File System Structures",
+          "Deadlocks (Detection, Prevention, Avoidance)"
+        ],
+        "System Design": [
+          "Scalability and Load Balancing",
+          "Database Sharding and Replication",
+          "Basic Caching Strategies",
+          "API Rate Limiting and Throttling",
+          "Message Queues (Kafka, RabbitMQ Basics)"
+        ]
+      }
+    },
+    "Hard": {
+      "topics": {
+        "Object-Oriented Programming": [
+          "SOLID Principles (Advanced)",
+          "Dependency Injection",
+          "Multithreading and Synchronization",
+          "Advanced Design Patterns (Builder, Prototype, MVC, MVVM)"
+        ],
+        "Databases": [
+          "Deadlocks and Prevention Techniques",
+          "Eventual Consistency and CAP Theorem",
+          "Indexing Strategies for Large Databases",
+          "Sharding vs. Partitioning",
+          "ACID vs. BASE in Distributed Databases"
+        ],
+        "Networking": [
+          "Load Balancing Techniques",
+          "Reverse Proxy and Forward Proxy",
+          "DNS Optimization and Resolution Strategies",
+          "BGP Routing and Traffic Engineering",
+          "Network Security (SSL/TLS, MITM Attacks)"
+        ],
+        "Operating Systems": [
+          "Process Synchronization (Readers-Writers Problem)",
+          "Kernel-Level Synchronization",
+          "Memory Management in Distributed Systems",
+          "Containerization vs Virtualization",
+          "I/O Scheduling Algorithms"
+        ],
+        "System Design": [
+          "High Availability and Fault Tolerance",
+          "Microservices vs. Monolithic Architectures",
+          "Designing Distributed Caching Systems",
+          "Scalability of Event-Driven Architectures",
+          "CAP Theorem and PACELC Trade-offs"
+        ]
+      }
+    }
+  }
+}

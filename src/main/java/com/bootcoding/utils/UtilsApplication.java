@@ -13,12 +13,12 @@ public class UtilsApplication {
 		SpringApplication.run(UtilsApplication.class, args);
 	}
 
-	@Bean
-	CommandLineRunner runOnStartup(CodingProblemService codingProblemService) {
-		return args -> {
-			System.out.println("🚀 Inserting data from JSON...");
-			codingProblemService.insertDataFromJson();
-			System.out.println("Data insertion complete.");
-		};
-	}
+//	@Bean
+//	CommandLineRunner runOnStartup(CodingProblemService codingProblemService) {
+//		return args -> {
+//			System.out.println("🚀 Inserting data from JSON...");
+//			codingProblemService.insertDataFromJson();
+//			System.out.println("Data insertion complete.");
+//		};
+//	}
 }
